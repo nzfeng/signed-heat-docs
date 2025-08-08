@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://nzfeng.github.io/signed-heat-3d/build/building/">
       
       
+        <link rel="prev" href="../..">
       
-      <link rel="icon" href="/signed-heat-3d/py/assets/images/favicon.png">
+      
+        <link rel="next" href="../tests/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>Signed Heat Method - Python</title>
+        <title>Building - Signed Heat Method - C++</title>
       
     
     
-      <link rel="stylesheet" href="/signed-heat-3d/py/assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="/signed-heat-3d/py/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="/signed-heat-3d/py/extras.css">
+      <link rel="stylesheet" href="../../extras.css">
     
-    <script>__md_scope=new URL("/signed-heat-3d/py/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -66,6 +72,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#building" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -105,10 +116,10 @@
 
     <!-- Link to home -->
     <a
-      href="/signed-heat-3d/py/."
-      title="Signed Heat Method - Python"
+      href="../.."
+      title="Signed Heat Method - C++"
       class="md-header__button md-logo"
-      aria-label="Signed Heat Method - Python"
+      aria-label="Signed Heat Method - C++"
       data-md-component="logo"
     >
       
@@ -127,13 +138,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Signed Heat Method - Python
+            Signed Heat Method - C++
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Building
             
           </span>
         </div>
@@ -186,16 +197,15 @@
   </div>
 </div>
     
-
     
     <!-- ADDED BY NFENG language selector (taken from polyscope-docs) -->
     <div class="md-flex__cell md-flex__cell--shrink">
-      <a href="https://nzfeng.github.io/signed-heat-docs" class="lang-button lang-button-inactive">
+      <a href="https://nzfeng.github.io/signed-heat-docs" class="lang-button">
         C++
       </a>
     </div>
     <div class="md-flex__cell md-flex__cell--shrink">
-      <a href="https://nzfeng.github.io/signed-heat-docs/py" class="lang-button">
+      <a href="https://nzfeng.github.io/signed-heat-docs/py" class="lang-button lang-button-inactive">
         Python
       </a>
     </div>
@@ -203,13 +213,13 @@
     <!-- Repository information -->
     
       <div class="md-header__source">
-        <a href="https://github.com/nzfeng/signed-heat-python" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/nzfeng/signed-heat-3d" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    nzfeng/signed-heat-python
+    nzfeng/signed-heat-3d
   </div>
 </a>
       </div>
@@ -242,23 +252,23 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/signed-heat-3d/py/." title="Signed Heat Method - Python" class="md-nav__button md-logo" aria-label="Signed Heat Method - Python" data-md-component="logo">
+    <a href="../.." title="Signed Heat Method - C++" class="md-nav__button md-logo" aria-label="Signed Heat Method - C++" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Signed Heat Method - Python
+    Signed Heat Method - C++
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/nzfeng/signed-heat-python" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/nzfeng/signed-heat-3d" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    nzfeng/signed-heat-python
+    nzfeng/signed-heat-3d
   </div>
 </a>
     </div>
@@ -272,7 +282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/signed-heat-3d/py/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -291,18 +301,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -318,7 +330,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Building
@@ -329,10 +341,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/signed-heat-3d/py/build/building/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Building
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -343,6 +377,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compile-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compile options
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -355,7 +427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/signed-heat-3d/py/build/tests/" class="md-nav__link">
+      <a href="../tests/" class="md-nav__link">
         
   
   
@@ -385,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/signed-heat-3d/py/algorithm/solvers/" class="md-nav__link">
+      <a href="../../algorithm/solvers/" class="md-nav__link">
         
   
   
@@ -417,6 +489,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compile-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compile options
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -428,8 +528,48 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="building">Building</h1>
+<p><code>signed-heat-3d</code> uses CMake for to configure the build system. The basic workflow for downloading and compiling <code>signed-heat-3d</code> via a terminal is:</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git clone --recurse-submodules https://github.com/nzfeng/signed-heat-3d.git
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>cd signed-heat-3d
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>mkdir build &amp;&amp; cd build
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>cmake ..
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>make -j
+</span></code></pre></div>
+If you do not clone recursively, some submodules or sub-submodules will not clone. (In particular, you may get errors about missing <code>CMakeLists.txt</code> files.) Initialize/update these submodules by running <code>git submodule update --init --recursive</code> or <code>git submodule update --recursive</code>.</p>
+<p>The above commands compile <code>signed-heat-3d</code> as a library, and do not build any executables.</p>
+<p>You can add <code>signed-heat-3d</code> to an existing project&rsquo;s CMakeLists.txt using</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>add_subdirectory(&quot;path/to/signed-heat-3d&quot;) # replace with your path
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>target_link_libraries(your-project-target signed-heat-3d)
+</span></code></pre></div>
+<h4 id="example">Example</h4>
+<p>The <a href="https://github.com/nzfeng/signed-heat-demo-3d">sample project</a> demonstrates how to use <code>signed-heat-3d</code> within another project, using a build system and a GUI.</p>
+<h2 id="compile-options">Compile options</h2>
+<p>Linear solves ca be optionally accelerated using the algebraic multigrid library <a href="https://github.com/ddemidov/amgcl">AMGCL</a>, which requires Boost. If you do not want to use Boost, use <code>cmake -DSHM_NO_AMGCL=On</code> to compile to a program without AMGCL but with solve times \~5x slower (more or less for larger/smaller problems). Force use of AMGCL via <code>cmake -DSHM_NO_AMGCL=Off</code>. Boost can be installed on macOS using <code>brew install boost</code>, and the necessary modules on Ubuntu using</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo apt-get -y update
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>sudo apt-get -y install libboost-dev libboost-test-dev libboost-program-options-dev libboost-serialization-dev
+</span></code></pre></div>
+<p>Windows users should probably follow the instructions on the <a href="https://www.boost.org/releases/latest/">Boost website</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -465,10 +605,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/signed-heat-3d/py/", "features": ["content.code.copy"], "search": "/signed-heat-3d/py/assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/signed-heat-3d/py/assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
