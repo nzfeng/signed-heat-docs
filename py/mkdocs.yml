@@ -41,7 +41,7 @@ extra:
     prefix: '/py/'
 
 extra_css:
-  - ../../shared/extras.css
+  - extras.css
 
 repo_name: nzfeng/signed-heat-python
 repo_url: https://github.com/nzfeng/signed-heat-python
