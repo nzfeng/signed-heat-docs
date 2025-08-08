@@ -39,7 +39,7 @@ extra:
     tokenizer: '[\s\-\.::]+'
 
 extra_css:
-  - ../../shared/theme.css
+  - ../../shared/extras.css
 
 repo_name: nzfeng/signed-heat-3d
 repo_url: https://github.com/nzfeng/signed-heat-3d
