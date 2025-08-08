@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../shared/extras.css">
+      <link rel="stylesheet" href="../../extras.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -633,7 +633,7 @@
 </details>
 <p>To improve performance, operators and spatial discretizations are only built as necessary, and re-used in future computations if the underlying discretization hasn&rsquo;t changed. This means future computations can be significantly faster than the initial solve (which includes, for example, tet mesh construction and matrix factorization.)</p>
 <h2 id="signed-distance-to-triangle-and-polygon-meshes">Signed distance to triangle and polygon meshes</h2>
-<p><img alt="distance to meshes" src="../../../../shared/media/Meshes.png" /></p>
+<p><img alt="distance to meshes" src="../../../media/Meshes.png" /></p>
 <p><strong>Example:</strong></p>
 <p>The library uses <a href="https://geometry-central.net/">geometry-central</a> to manage mesh and point cloud structures.
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;signedheat3d/signed_heat_grid_solver.h&quot;</span>
@@ -679,7 +679,7 @@
 </ul>
 </details>
 <h2 id="signed-distance-to-point-clouds">Signed distance to point clouds</h2>
-<p><img alt="distance to point cloud" src="../../../../shared/media/PointCloud.png" /></p>
+<p><img alt="distance to point cloud" src="../../../media/PointCloud.png" /></p>
 <p><strong>Example:</strong>
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;signedheat3d/signed_heat_grid_solver.h&quot;</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;signedheat3d/signed_heat_tet_solver.h&quot;</span>

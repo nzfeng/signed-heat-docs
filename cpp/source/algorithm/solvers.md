@@ -18,7 +18,7 @@ To improve performance, operators and spatial discretizations are only built as 
 
 ## Signed distance to triangle and polygon meshes
 
-![distance to meshes](../../../../shared/media/Meshes.png)
+![distance to meshes](../../../media/Meshes.png)
 
 **Example:**
 
@@ -67,7 +67,7 @@ Vector<double> sdf = gridSolver.computeDistance(geometry, solveOptions); // get 
 
 ## Signed distance to point clouds
 
-![distance to point cloud](../../../../shared/media/PointCloud.png)
+![distance to point cloud](../../../media/PointCloud.png)
 
 **Example:**
 ```cpp

@@ -2,7 +2,7 @@
 
 `signed-heat-3d` is a C++ library implementing the [Signed Heat Method](https://nzfeng.github.io/research/SignedHeatMethod/index.html) for computing **robust signed distance fields (SDFs)** to triangle meshes, polygon meshes, and point clouds in 3D. 
 
-![teaser image](../../../shared/media/Teaser.png)
+![teaser image](../../media/Teaser.png)
 
 Python bindings to this C++ code also exist via the `signed_heat_method` package on PyPI: toggle the "C++/Python" switch at the top of this page to see documentation for the Python version.
 
