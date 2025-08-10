@@ -4,7 +4,7 @@
 
 ![teaser image](media/Teaser.png)
 
-Python bindings to this C++ code also exist via the `signed_heat_method` package on PyPI: toggle the "C++/Python" switch at the top of this page to see documentation for the Python version.
+Python bindings to this C++ code also exist via the `signedheat3d` package on PyPI: toggle the "C++/Python" switch at the top of this page to see documentation for the Python version.
 
 **Sample:**
 
