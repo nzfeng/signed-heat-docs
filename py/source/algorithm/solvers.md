@@ -22,7 +22,7 @@ To improve performance, operators and spatial discretizations are only built as 
 
 **Example:**
 ```python
-import signed_heat_method as shm
+import signedheat3d as shm
 
 V, F = # your mesh
 
@@ -68,7 +68,7 @@ Both `compute_distance_to_mesh()` functions take an optional argument called `op
 
 **Example:**
 ```python
-import signed_heat_method as shm
+import signedheat3d as shm
 
 P, N = # your point cloud, with normals
 

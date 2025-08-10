@@ -1,9 +1,9 @@
 # Building
 
-The recommended way to install `signed_heat_method` is via PyPI:
+The recommended way to install `signedheat3d` is via PyPI:
 
 ```
-pip install signed_heat_method
+pip install signedheat3d
 ```
 You can also clone the repository and install it from source:
 ```

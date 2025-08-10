@@ -1,20 +1,20 @@
 # Signed Heat Method (Python)
 
-`signed_heat_method` is a Python library implementing the [Signed Heat Method](https://nzfeng.github.io/research/SignedHeatMethod/index.html) for computing **robust signed distance fields (SDFs)** to triangle meshes, polygon meshes, and point clouds in 3D. 
+`signedheat3d` is a Python library implementing the [Signed Heat Method](https://nzfeng.github.io/research/SignedHeatMethod/index.html) for computing **robust signed distance fields (SDFs)** to triangle meshes, polygon meshes, and point clouds in 3D. 
 
 ![teaser image](media/Teaser.png)
 
 This library consists of Python bindings to [C++ code](https://github.com/nzfeng/signed-heat-3d). Toggle the "C++/Python" switch at the top of this page to see documentation for the C++ version.
 
-Install `signed_heat_method` via PyPI:
+Install `signedheat3d` via PyPI:
 ```
-pip install signed_heat_method
+pip install signedheat3d
 ```
 
 **Sample:**
 
 ```python
-import signed_heat_method as shm
+import signedheat3d as shm
 
 V, F = # your mesh, specified as a vertex and face array
 
@@ -42,7 +42,7 @@ The Signed Heat Method has been implemented in both C++ and Python, in 2D and in
 
 **Credits**
 
-`signed_heat_method` is developed by [Nicole Feng](https://nzfeng.github.io), with advice from [Alex Kaszynski](https://github.com/akaszynski) and [Nicholas Sharp](https://nmwsharp.com).
+`signedheat3d` is developed by [Nicole Feng](https://nzfeng.github.io), with advice from [Alex Kaszynski](https://github.com/akaszynski) and [Nicholas Sharp](https://nmwsharp.com).
 
 If this code contributes to an academic publication, cite it as:
 ```bib

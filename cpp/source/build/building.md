@@ -26,7 +26,7 @@ The [sample project](https://github.com/nzfeng/signed-heat-demo-3d) demonstrates
 
 ## Compile options
 
-Linear solves ca be optionally accelerated using the algebraic multigrid library [AMGCL](https://github.com/ddemidov/amgcl), which requires Boost. If you do not want to use Boost, use `cmake -DSHM_NO_AMGCL=On` to compile to a program without AMGCL but with solve times \~5x slower (more or less for larger/smaller problems). Force use of AMGCL via `cmake -DSHM_NO_AMGCL=Off`. Boost can be installed on macOS using `brew install boost`, and the necessary modules on Ubuntu using
+Linear solves can be optionally accelerated using the algebraic multigrid library [AMGCL](https://github.com/ddemidov/amgcl), which requires Boost. If you do not want to use Boost, use `cmake -DSHM_NO_AMGCL=On` to compile to a program without AMGCL but with solve times \~5x slower (more or less for larger/smaller problems). Force use of AMGCL via `cmake -DSHM_NO_AMGCL=Off`. Boost can be installed on macOS using `brew install boost`, and the necessary modules on Ubuntu using
 
 ```
 sudo apt-get -y update
